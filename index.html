@@ -9,21 +9,34 @@
 <body>
     <div class="container">
         <h1>Мои Игры</h1>
-        <ul id="game-list">
-            <li>
-                <input type="checkbox" id="game1">
-                <label for="game1">Игра 1</label>
-            </li>
-            <li>
-                <input type="checkbox" id="game2">
-                <label for="game2">Игра 2</label>
-            </li>
-            <li>
-                <input type="checkbox" id="game3">
-                <label for="game3">Игра 3</label>
-            </li>
-            <!-- Добавьте другие игры здесь -->
-        </ul>
+        <div id="game-tracker">
+            <!-- Игры за 2023 год -->
+            <div class="year">
+                <h2>2023</h2>
+                <div class="month">
+                    <h3>Январь</h3>
+                    <ul>
+                        <li>
+                            <input type="checkbox" id="game1">
+                            <label for="game1">Игра 1</label>
+                        </li>
+                        <!-- Добавьте другие игры здесь -->
+                    </ul>
+                </div>
+                <div class="month">
+                    <h3>Февраль</h3>
+                    <ul>
+                        <li>
+                            <input type="checkbox" id="game2">
+                            <label for="game2">Игра 2</label>
+                        </li>
+                        <!-- Добавьте другие игры здесь -->
+                    </ul>
+                </div>
+                <!-- Добавьте другие месяцы и игры здесь -->
+            </div>
+            <!-- Добавьте другие года и игры здесь -->
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
